@@ -1668,3 +1668,49 @@ figure.dotted-bg {
       .site-footer .social li a:hover {
         background: #36a1ff;
         color: #ffffff; }
+
+/* Custom spacing for navigation - index page only */
+#index-section.untree_co-section {
+  padding-top: 8rem !important;
+}
+
+/* Bold text on hover for navigation buttons */
+.nav-buttons .btn:hover,
+.nav-buttons .btn:focus,
+.nav-buttons .btn:active {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+  font-weight: bold !important;
+}
+
+/* Remove blue background and border from active Index button */
+.nav-buttons .btn.active,
+.nav-buttons .btn-primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #000000 !important;
+  pointer-events: none !important;
+  cursor: default !important;
+  font-weight: bold !important;
+}
+
+/* Change burger menu hover colors to black */
+.site-mobile-menu .site-nav-wrap a:hover,
+.site-mobile-menu .site-nav-wrap a.active {
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+/* Remove padding from navigation buttons */
+.nav-buttons .btn {
+  padding: 0 !important;
+}
+
+/* Align navigation buttons with Julia Kwon logo */
+.nav-buttons {
+  margin-left: -8px;
+}
+
+
