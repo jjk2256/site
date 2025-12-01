@@ -5,7 +5,7 @@
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 body {
-  font-family: "PT Mono", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   background: #ffffff;
   overflow-x: hidden;
@@ -66,7 +66,7 @@ a.text-primary {
     color: #0389ff !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #dddde6; }
 
 .btn {
@@ -202,7 +202,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .logo {
   font-size: 24px;
   color: #ffffff;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif; }
   .logo:hover {
     color: #ffffff; }
 
@@ -1149,14 +1150,9 @@ figure.dotted-bg {
       border-right: 1px solid #efefef; }
 
 #about-section {
-  margin-top: 7rem; }
-  #about-section .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px; }
-    #about-section .container .author-wrap {
-      margin-top: -150px; }
+  margin-top: 0; }
+  #about-section .container .author-wrap {
+    margin-top: -150px; }
 
 .grid-item {
   position: relative; }
@@ -1680,20 +1676,16 @@ figure.dotted-bg {
 .nav-buttons .btn:active {
   background-color: transparent !important;
   border-color: transparent !important;
-  color: #000000 !important;
+  color: #ffffff !important;
   box-shadow: none !important;
-  font-weight: bold !important;
 }
 
-/* Remove blue background and border from active Index button */
+/* Style for active navigation button */
 .nav-buttons .btn.active,
 .nav-buttons .btn-primary {
   background-color: transparent !important;
   border-color: transparent !important;
   color: #000000 !important;
-  pointer-events: none !important;
-  cursor: default !important;
-  font-weight: bold !important;
 }
 
 /* Change burger menu hover colors to black */
@@ -1711,6 +1703,220 @@ figure.dotted-bg {
 /* Align navigation buttons with Julia Kwon logo */
 .nav-buttons {
   margin-left: -8px;
+}
+
+/* About page styles */
+.about-content {
+  font-size: 0.9em;
+}
+
+.about-content h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  margin-bottom: 0.5rem;
+}
+
+.about-content p.section-spacing {
+  margin-bottom: 2rem;
+}
+
+.about-content a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about-content a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-main-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.about-tagline {
+  font-size: 0.9em;
+  margin-bottom: 1.5rem;
+  padding-left: 3px !important;
+  margin-left: 0 !important;
+}
+
+.about-description {
+  font-size: 0.9em;
+  margin-bottom: 2rem;
+  padding-left: 3px !important;
+  margin-left: 0 !important;
+}
+
+.about-link {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Align columns on about page - left aligns with logo, right aligns with second vertical line */
+#about-section .container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#about-section .row.mt-5 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  position: relative;
+}
+#about-section .col-lg-3,
+#about-section .col-md-4 {
+  padding-left: 3px !important;
+  padding-right: 15px !important;
+  position: absolute;
+  left: 0;
+  width: 25%;
+}
+#about-section .col-lg-9,
+#about-section .col-md-8 {
+  padding-left: 3px !important;
+  margin-left: 0 !important;
+  position: absolute;
+  left: 33.333%;
+  width: 66.667%;
+}
+#about-section .col-lg-3 p,
+#about-section .col-md-4 p {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+#about-section .about-content {
+  padding-left: 0 !important;
+}
+#about-section .about-content h3,
+#about-section .about-content p {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.about-education-item {
+  margin-bottom: 0.5rem;
+}
+
+.about-education-item .degree-name {
+  font-weight: normal;
+}
+
+.about-education-last {
+  margin-bottom: 2rem;
+}
+
+.about-education-last .degree-name {
+  font-weight: normal;
+}
+
+/* Remove top padding from navigation */
+.site-nav {
+  padding-top: 0 !important;
+}
+
+/* Portfolio page styles */
+.portfolio-text-column {
+  font-size: 0.9em;
+}
+
+.portfolio-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.portfolio-text-column .role-label,
+.portfolio-text-column .collaborators-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.portfolio-text-column a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.portfolio-text-column a:hover {
+  color: #ffffff !important;
+}
+
+.capstone-archive-link {
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.capstone-archive-link:hover {
+  color: #ffffff !important;
+}
+
+.hue-knew-link {
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hue-knew-link:hover {
+  color: #ffffff !important;
+}
+
+.portfolio-project-archive {
+  margin-top: -12rem;
+}
+
+.burger {
+  display: none;
+}
+
+.unslate_co--close-portfolio {
+  display: none !important;
+}
+
+/* Remove gap between video and images in portfolio pages */
+#portfolio-single-section .row.align-items-stretch {
+  margin-bottom: 0 !important;
+}
+
+#portfolio-single-section .row {
+  margin-top: 0 !important;
+}
+
+#portfolio-single-section .embed-responsive {
+  margin-bottom: 0 !important;
+}
+
+#portfolio-single-section .col-lg-8 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.portfolio-single-inner {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Consistent spacing between portfolio images */
+.portfolio-image-spacing {
+  margin-top: 3rem !important;
 }
 
 

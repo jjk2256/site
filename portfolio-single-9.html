@@ -47,57 +47,100 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <nav class="site-nav dark site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Julia Kwon</a>
 
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">Julia Kwon</a></h1>
-          </div>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
+        </ul>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
 
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                <li><a href="publications.html" class="nav-link">Publications</a></li>
-                <li><a href="awards.html" class="nav-link">Awards</a></li>
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
       </div>
       
-    </header>
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
     <div class="site-section" id="portfolio-section">
       <div class="container">
         <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
           <div class="portfolio-single-inner">
-            <h2 class="heading-portfolio-single-h2 text-black">Mapping Delivery Access (2024)</h2>
             
             <div class="row mb-5 align-items-stretch">
-              <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FupW2hQdHAM?si=-bwmG5q_YiMyBFJ9" allowfullscreen></iframe>
+              <div class="col-lg-8 mb-5 mb-lg-0">
+                <div>
+                  <a href="images/gal_8/img_2.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_2.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_3.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_3.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_4.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_4.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_5.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_5.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_6.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_6.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_7.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_7.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <a href="images/gal_8/img_8.png" data-fancybox="gallery">
+                    <img src="images/gal_8/img_8.png" alt="Mapping Delivery Access" class="img-fluid" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+                <div class="portfolio-image-spacing">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FupW2hQdHAM?si=-bwmG5q_YiMyBFJ9" allowfullscreen></iframe>
+                  </div>
                 </div>
               </div>
-              <div class="col-lg-6 pl-lg-5">
-                <p>This project maps the service access of package, grocery, and meal delivery across the United States, revealing disparities in coverage and identifying regions—termed "delivery deserts"—where services are limited or absent. Developed by Kitae Kim and Julia Kwon, the interactive spatial analysis uses MapLibre and Maputnik to visualize how infrastructure, population density, and geographic barriers shape accessibility. Through layered mapping and focused case studies, the project explores how spatial data can support more equitable approaches to design and service distribution.</p>
-              </div>
-            </div>
-
-            <div class="row mb-5">
-              <div class="col-lg-6 mb-5 mb-lg-0">
-                <a href="images/img_8.png" data-fancybox="gallery">
-                  <img src="images/img_8.png" alt="Mapping Delivery Access Project" class="img-fluid">
-                </a>
+              <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+                <h3 class="portfolio-title">Mapping Delivery Access <span style="font-weight: 400;">2024</span></h3>
+                
+                <p style="font-style: italic;">This project started with a simple realization: the convenience of delivery isn't universal—it depends on where you live, who you are, and what infrastructure surrounds you. Mapping those gaps turned delivery coverage into a lens for understanding spatial inequity across the country. The significance came from showing how an everyday service can reveal deeper patterns of exclusion.</p>
+                
+                <p>Mapping Delivery Access reveals how delivery services—packages, groceries, meals—vary across the United States, exposing regions with limited or no access. The project shows how infrastructure, geography, and demographics shape availability, reframing convenience as a spatial and equity issue.</p>
+                
+                <p>Using MapLibre and Maputnik, the platform layers service availability data with demographic and geographic information. Users can explore case studies, compare regions, and view disparities through clustering, color density, and dynamic filters.</p>
+                
+                <p>The project merges spatial analytics with civic storytelling, transforming delivery coverage into a lens for understanding inequity and supporting more inclusive service design.</p>
+                
+                <p><span class="role-label">Role</span><br>
+                Concept development, spatial analysis, data processing, interactive map design, interface development</p>
+                
+                <p><span class="role-label">Collaborators</span><br>
+                Kitae Kim, Julia Kwon</p>
               </div>
             </div>
           </div>

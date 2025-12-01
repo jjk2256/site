@@ -51,22 +51,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Julia Kwon</a>
 
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="publications.html" class="nav-link">Publications</a></li>
-          <li><a href="awards.html" class="nav-link">Awards + Press</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link">Index</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -76,24 +86,56 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">Rube Goldberg Machine (2024)</h2>
 
           <div class="row mb-5 align-items-stretch">
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dr4IfNH6Ngk?si=SC4tELGa6txoKYfm" allowfullscreen></iframe>
-              </div>
-              <div class="mt-5" style="margin-top: 6rem !important;">
-                <a href="images/img_4.png" data-fancybox="gallery">
-                  <img src="images/img_4.png" alt="Rube Goldberg Machine Image" class="img-fluid">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <div>
+                <a href="images/gal_11/img_1.png" data-fancybox="gallery">
+                  <img src="images/gal_11/img_1.png" alt="Unpredictable" class="img-fluid" style="width: 100%; height: auto;">
                 </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_11/img_2.png" data-fancybox="gallery">
+                  <img src="images/gal_11/img_2.png" alt="Unpredictable" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_11/img_3.png" data-fancybox="gallery">
+                  <img src="images/gal_11/img_3.png" alt="Unpredictable" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_11/img_4.png" data-fancybox="gallery">
+                  <img src="images/gal_11/img_4.png" alt="Unpredictable" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dr4IfNH6Ngk?si=SC4tELGa6txoKYfm" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6 pl-lg-5">
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">Unpredictable <span style="font-weight: 400;">2024</span></h3>
 
-              <p>RubeGoldberg investigates chain reactions and mechanical systems through playful complexity. Created in collaboration with Hao Lee, this project combines physical computing and kinetic elements to construct elaborate sequences where each action triggers the next. As the game unfolds, the chain reactions often transform in unexpected ways, introducing unpredictable outcomes that highlight the tension between control and chaos. Through deliberate over-complication, the project explores causality, failure, and surprise as core components of interactive design.</p>
+              <p style="font-style: italic;">What began as a playful homage to Rube Goldberg machines quickly revealed how messy physical computation really is. Every tiny variable—airflow, friction, spacing, sensor delay—twisted a clean input → process → output into a different outcome each run. In the end, that unpredictability became the project's real expression, showing me how misfires give a system its character.</p>
+              
+              <p>Unpredictable is a kinetic chain reaction machine created as an homage to the tradition of the Rube Goldberg machine, where simple actions trigger overengineered sequences of events. The project examines how a seemingly straightforward input → process → output system becomes unstable once translated into physical motion.</p>
+              
+              <p>The sequence begins with a trigger (input): a lever strike that sends dominoes down a track. Their motion activates a sensor connected to an Arduino (process), which powers a fan and initiates additional digital cues. These cues pull a balloon toward a needle field, forming the intended output—popping the balloon.</p>
+              
+              <p>However, the system continually resists expectation. Small variations in airflow, domino spacing, surface friction, and sensor timing cause each run to diverge. Sometimes the balloon rushes forward; sometimes it hesitates; sometimes it misses the needles entirely. These deviations become the expressive core of the piece, revealing how unpredictability animates even the most tightly orchestrated mechanical chains.</p>
+              
+              <p>As an early exploration into physical computation, the machine was prototyped using Arduino to bridge mechanical movement with digital logic, documenting how interdependence and misfires shape system behavior.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Concept design, design development, arduino, mechanical prototyping, 
+              interaction design</p>
+              
+              <p><span class="role-label">Collaborators</span><br>
+              Hao Lee</p>
 
             </div>
 

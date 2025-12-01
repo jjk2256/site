@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
 
   <title>EchoPulse - Julia Kwon Portfolio</title>
 </head>
@@ -45,22 +45,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Julia Kwon</a>
 
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="publications.html" class="nav-link">Publications</a></li>
-          <li><a href="awards.html" class="nav-link">Awards + Press</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link active">Index</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -75,40 +85,57 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">EchoPulse (2025)</h2>
 
           <div class="row mb-5 align-items-stretch">
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o2tsGA1ngAQ?si=ULuF4MRXordYDYxQ" allowfullscreen></iframe>
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <div>
+                <a href="images/gal_7/img_3.png" data-fancybox="gallery">
+                  <img src="images/gal_7/img_3.png" alt="EchoPulse" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o2tsGA1ngAQ?si=ULuF4MRXordYDYxQ" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_7/img_1.png" data-fancybox="gallery">
+                  <img src="images/gal_7/img_1.png" alt="EchoPulse" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_7/img_2.png" data-fancybox="gallery">
+                  <img src="images/gal_7/img_2.png" alt="EchoPulse" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_7.png" data-fancybox="gallery">
+                  <img src="images/gal_7.png" alt="EchoPulse" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
               </div>
             </div>
 
-            <div class="col-lg-6 pl-lg-5">
-              <div class="portfolio-single-content">
-                <p>EchoPulse is an interactive game that visualizes players' real-time heart rates through dynamic, pulsating waves. Created in collaboration with Skylar Zhang, the project uses biofeedback technology and physical computation to transform biometric data into a responsive visual interface.</p>
-                
-                <p>By integrating heart rate sensors, the game enables participants to observe and influence their physiological signals, fostering a unique interplay between body and environment. Through this system, players are invited to achieve visual harmony by actively engaging with their own heartbeat—turning internal rhythms into a shared, interactive experience.</p>
-              </div>
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">EchoPulse <span style="font-weight: 400;">2025</span></h3>
+              
+              <p style="font-style: italic;">EchoPulse began with a lot of questioning—asking friends, asking GPT, and manually crowdsourcing ideas because I didn't want to copy any existing game mechanic. Once the system took shape, my partner and I refined it together, especially the challenge of getting the physical pulse sensors to communicate cleanly with the p5.js visualization. Its significance lies in inventing a two-player interaction built from collective thinking rather than borrowed from existing games.</p>
+              
+              <p>EchoPulse turns the heartbeat into a shared visual performance. The project creates a biofeedback game in which players influence pulsating waveforms that reflect their physiological rhythms, revealing the subtle interplay between body and environment.</p>
+              
+              <p>Custom pulse-sensing "play pieces" transmit biometric data to an Elegoo Mega microcontroller housed in a modular enclosure. The processed signals feed a p5.js visualization that generates concentric waves responding in real time to moment-to-moment variations in pulse.</p>
+              
+              <p>By transforming intimate physiological signals into an expressive medium, EchoPulse extends biofeedback beyond measurement into aesthetic interaction and collective awareness.</p>
+              
+              <p>A complete biofeedback game system; custom sensing hardware; real-time visualization refined through playtesting.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Concept design, interaction design, biofeedback integration, physical computing, p5.js visualization development, prototyping</p>
+              
+              <p><span class="role-label">Collaborator</span><br>
+              Skylar Zhang</p>
             </div>
 
-          </div>
-
-          <div class="row mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <a href="images/img_7.png" data-fancybox="gallery">
-                <img src="images/img_7.png" alt="EchoPulse Project" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="row mb-5" style="margin-top: 7rem;">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <a href="images/img_6.png" data-fancybox="gallery">
-                <img src="images/img_6.png" alt="EchoPulse Project" class="img-fluid">
-              </a>
-            </div>
           </div>
 
         </div>

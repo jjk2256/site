@@ -45,38 +45,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a href="index.html" class="logo m-0">Space<span class="text-primary">.</span></a>
+        <a href="index.html" class="logo m-0">Julia Kwon</a>
 
-        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right">
-          <li><a href="#home-section" class="nav-link active">Home</a></li>
-          <li><a href="#portfolio-section">Portfolio</a></li>
-
-          <li class="has-children">
-            <a href="#about-section">About</a>
-            <ul class="dropdown">
-              <li><a href="elements.html">Elements</a></li>
-              <li class="has-children">
-                <a href="#">Menu Two</a>
-                <ul class="dropdown">
-                  <li><a href="#">Sub Menu One</a></li>
-                  <li><a href="#">Sub Menu Two</a></li>
-                  <li><a href="#">Sub Menu Three</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Menu Three</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact us</a></li>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -91,24 +85,50 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">LumenBeat (2025)</h2>
 
           <div class="row mb-5 align-items-stretch">
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RzlMUqnRZ_I?si=InQlibbW9ct8kNUn" allowfullscreen></iframe>
-              </div>
-              <div class="mt-5" style="margin-top: 6rem !important;">
-                <a href="images/img_1.png" data-fancybox="gallery">
-                  <img src="images/img_1.png" alt="LumenBeat Image" class="img-fluid">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <div>
+                <a href="images/gal_9/img_1.png" data-fancybox="gallery">
+                  <img src="images/gal_9/img_1.png" alt="LumenBeat" class="img-fluid" style="width: 100%; height: auto;">
                 </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_9/LumenBeat.gif" data-fancybox="gallery">
+                  <img src="images/gal_9/LumenBeat.gif" alt="LumenBeat" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_9/img_2.png" data-fancybox="gallery">
+                  <img src="images/gal_9/img_2.png" alt="LumenBeat" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RzlMUqnRZ_I?si=InQlibbW9ct8kNUn" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6 pl-lg-5">
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">LumenBeat <span style="font-weight: 400;">2025</span></h3>
 
-              <p>LUMENBEAT is a digital automaton that transforms biometric readings into pulsating illumination. Created in collaboration with Adnan Kasubhai and Kitae Kim, the project draws inspiration from digital artists who explore the interplay between light and human touch. Designed as a touch-based digital object, LUMENBEAT reflects a person's heart rate through ambient, atmospheric lighting. At its core, the project integrates physical computation—translating biometric input into dynamic light patterns through embedded sensors and microcontrollers. The sculptural housing was fabricated through robotic metal forming, enabling the creation of precise, fluid geometries that echo the contours of the human hand. Nestled within a hand-shaped recess, a touch sensor invites contact—activating a choreographed pulse of light that responds in real time. By merging biometric sensing, robotic fabrication, and interactive lighting, LUMENBEAT becomes both interface and instrument—transforming internal rhythms into a shared spatial experience.</p>
+              <p style="font-style: italic;">I imagined LumenBeat as a re-interpreted oracle—an object you touch, not speak to, and one that answers with light. We decided to make the heartbeat tangible, which meant printing the form at a grand scale and wrestling with the challenges that came with it. The result is a tactile, breathing object where design and computation turn physiology into something quietly poetic.</p>
+              
+              <p>LumenBeat is a touch-responsive digital automaton that translates biometric input into shifting ambient light. Designed to nest comfortably against the hand, the object renders a user's heartbeat as expanding and contracting illumination, turning internal physiological rhythms into a spatial, perceptual experience.</p>
+              
+              <p>The exterior shell—designed to mimic the dynamic rhythm of a handprint through its curvature—was digitally generated in Rhino + Grasshopper and prototyped using two fabrication workflows at New Bedford Robotics Research (NBRR): a large-format 3D printer and a robotic arm with an extruder. Because the form contains hundreds of perforations, the large-format print produced the most consistent and structurally accurate results and became the final body. The hand-touch region required metal-forming using a UR3. It is shaped to mimic a small human-hand to cradle the heart-rate sensor and maintains reliable skin contact.</p>
+              
+              <p>The system operates through an input → process → output sequence following the project's trigger logic. Input: the user places their hand on the metal-formed surface, activating the heart-rate sensor. Process: pulse data flows to an Arduino-based microcontroller, which interprets the signal, stabilizes fluctuations, and maps the heartbeat onto timing curves. Output: a vertical LED structure animates in synchronized pulses, visualizing the heartbeat as a breathing column of light.</p>
+              
+              <p>LumenBeat integrates parametric design, hybrid fabrication (3D printing + robotic metal forming), physical computing, and biometric sensing to evoke physiological, and spatial experience into a single interactive object.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Concept and interaction design, physical computation using Arduino, wiring, sensor integration design, lighting design, video, and drawings</p>
+              
+              <p><span class="role-label">Collaborators</span><br>
+              <a href="https://researchandrobotics.org/home/workforce-development/university-and-internal-research/" target="_blank"><strong>NBRR</strong></a>, Adnan Kasubhai, Kitae Kim</p>
 
             </div>
 

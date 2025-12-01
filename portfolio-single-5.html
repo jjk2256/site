@@ -51,22 +51,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Julia Kwon</a>
 
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="publications.html" class="nav-link">Publications</a></li>
-          <li><a href="awards.html" class="nav-link">Awards + Press</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link">Index</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -76,24 +86,59 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">HueKnew (2024)</h2>
 
           <div class="row mb-5 align-items-stretch">
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VfR0h_FfCkY?si=9OqmVhxKsQUXp-jA" allowfullscreen></iframe>
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <div>
+                <a href="images/gal_6/img_1.png" data-fancybox="gallery">
+                  <img src="images/gal_6/img_1.png" alt="Hue Knew" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
               </div>
-              <div class="mt-5" style="margin-top: 6rem !important;">
-                <a href="images/img_9.png" data-fancybox="gallery">
-                  <img src="images/img_9.png" alt="HueKnew Image" class="img-fluid">
+              <div class="portfolio-image-spacing">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VfR0h_FfCkY?si=9OqmVhxKsQUXp-jA" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_6/img_2.png" data-fancybox="gallery">
+                  <img src="images/gal_6/img_2.png" alt="Hue Knew" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_6/img_3.png" data-fancybox="gallery">
+                  <img src="images/gal_6/img_3.png" alt="Hue Knew" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_6/img_4.png" data-fancybox="gallery">
+                  <img src="images/gal_6/img_4.png" alt="Hue Knew" class="img-fluid" style="width: 100%; height: auto;">
                 </a>
               </div>
             </div>
 
-            <div class="col-lg-6 pl-lg-5">
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">Hue Knew <span style="font-weight: 400;">2024</span></h3>
 
-              <p>Hue Knew? is an interactive web-based quiz developed by Hao Lee, Julia Kwon, and Vaibhav Jain. The project explores the relationship between color palettes and cinematic genres, challenging users to identify film genres based solely on curated color schemes. By gamifying visual analysis, Hue Knew? offers an engaging platform to examine how color theory and visual perception inform genre recognition and storytelling in film.</p>
+              <p style="font-style: italic;">Hue Knew was our way of breaking out of the usual data-viz format—while others built maps and infographics, we wanted to make a full game. Pulling open-source film data for the quizzes was the easy part; the real challenge was designing the Wordle-style modes and stats options that make the game feel alive. Its significance lies in choosing the harder path and learning the system by building it ourselves.</p>
+              
+              <p>Hue Knew is an interactive web-based quiz that challenges users to identify cinematic genres based solely on curated color palettes. By reducing films to their chromatic signatures, the project foregrounds how color theory, visual perception, and genre conventions shape the emotional language of cinema. The interface design draws inspiration from Wordle, a game I play every day, adapting its grid-based structure, guess-and-feedback rhythm, and satisfying incremental reveal to create an intuitive, playful system for visual reasoning.</p>
+              
+              <p>Curated palettes from a broad range of films are distilled into simplified swatches, which the interface presents as selectable challenges. Using a lightweight front-end framework, the platform manages user input, scoring logic, animated feedback, and branching state transitions. Color combinations are mapped to genre categories, producing immediate responses that reveal how strongly palette alone can signal narrative intent.</p>
+              
+              <p>The project reframes film interpretation through chromatic structure rather than plot or character. By gamifying perceptual cues, Hue Knew? demonstrates how color functions as a storytelling shorthand while prompting players to reflect on their own cinematic assumptions and pattern-recognition habits.</p>
+              
+              <p>A fully functional web-based quiz; curated film-palette dataset; Wordle-inspired interface system; project deployed online and tested with users.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Gameplay concept design and development, interface and visual theme design, coding</p>
+              
+              <p><span class="role-label">Collaborators</span><br>
+              Hao Lee, Vaibhav Jain, Julia Kwon</p>
+              
+              <div class="mt-4">
+                <p>play <a href="https://halfward.github.io/DataViz-GroupProj/" target="_blank" class="hue-knew-link">Hue Knew</a></p>
+              </div>
 
             </div>
 

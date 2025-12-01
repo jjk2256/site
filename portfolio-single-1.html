@@ -45,38 +45,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a href="index.html" class="logo m-0">Space<span class="text-primary">.</span></a>
+        <a href="index.html" class="logo m-0">Julia Kwon</a>
 
-        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right">
-          <li><a href="#home-section" class="nav-link active">Home</a></li>
-          <li><a href="#portfolio-section">Portfolio</a></li>
-
-          <li class="has-children">
-            <a href="#about-section">About</a>
-            <ul class="dropdown">
-              <li><a href="elements.html">Elements</a></li>
-              <li class="has-children">
-                <a href="#">Menu Two</a>
-                <ul class="dropdown">
-                  <li><a href="#">Sub Menu One</a></li>
-                  <li><a href="#">Sub Menu Two</a></li>
-                  <li><a href="#">Sub Menu Three</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Menu Three</a></li>
-            </ul>
-          </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact us</a></li>
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-outline-primary mx-2 mb-2">Projects</a>
+            <a href="research.html" class="btn btn-primary mx-2 mb-2 active">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -91,36 +85,42 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">CAPSTONE (2024-2025)</h2>
 
-          <div class="row justify-content-between mb-5">
-            <div class="col-12 mb-4">
-              <div class="owl-carousel single-slider">
-                <figure class="mb-4">
-                  <img src="images/img_1.webp" alt="CAPSTONE Image 1" class="img-fluid" style="max-width: 50%; margin: 0 auto; display: block;">
-                  <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">make</figcaption>
-                </figure>
-                <figure class="mb-4">
-                  <img src="images/img_2.webp" alt="CAPSTONE Image 2" class="img-fluid" style="max-width: 50%; margin: 0 auto; display: block;">
-                  <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">grow</figcaption>
-                </figure>
-                <figure class="mb-4">
-                  <img src="images/img_3.webp" alt="CAPSTONE Image 3" class="img-fluid" style="max-width: 50%; margin: 0 auto; display: block;">
-                  <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">test</figcaption>
-                </figure>
+          <div class="row mb-5 align-items-stretch">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <figure class="mb-4">
+                <img src="images/img_1.webp" alt="CAPSTONE Image 1" class="img-fluid">
+                <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">make</figcaption>
+              </figure>
+              <figure class="mb-4">
+                <img src="images/img_2.webp" alt="CAPSTONE Image 2" class="img-fluid">
+                <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">grow</figcaption>
+              </figure>
+              <figure class="mb-4">
+                <img src="images/img_3.webp" alt="CAPSTONE Image 3" class="img-fluid">
+                <figcaption style="text-align: center; margin-top: 10px; font-weight: bold; color: #333;">test</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">CAPSTONE <span style="font-weight: 400;">2024-2025</span></h3>
+              
+              <p>This project reimagines acoustic panel systems through modular mycelium-based components that merge robotic precision with biological growth. It proposes a move away from extractive materials toward regenerative, sound-responsive surfaces that grow within digitally defined scaffolds.</p>
+              
+              <p>Robotically formed wooden frameworks are fabricated through a UR3 arm equipped with a custom end-effector, then placed into modular molds and inoculated with mycelium. Growth occurs within a climate-controlled incubator that monitors CO₂, temperature, and humidity. After seven days, panels undergo acoustic testing using a vacuum-tube speaker, Arduino-based recording, and comparison against cork and spray-applied systems.</p>
+              
+              <p>The project encodes structure before growth and integrates sensing across fabrication, incubation, and evaluation. This creates a responsive workflow where biological behavior and digital logic operate in concert, resulting in panels with competitive acoustic performance and significantly lower embodied carbon.</p>
+              
+              <p>Material prototypes refined through multiple growth cycles; environmental data collected; acoustic results validated and exhibited in the Columbia GSAPP archive.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Concept development, parametric modeling, robotic fabrication workflow design, sensor integration, biological growth monitoring, acoustic evaluation</p>
+              
+              <p><span class="role-label">Advisors</span><br>
+              David Benjamin, James Nanasca, Daniel Leithinger, Yonah Elorza</p>
+              
+              <div class="mt-4">
+                <p><a href="https://gsapp-cdp.github.io/archive/projects/2025/mycelium-acoustic-module/" target="_blank" class="capstone-archive-link">CAPSTONE</a></p>
               </div>
-            </div>
-            <div class="col-12 mb-4" style="margin-top: 6rem;">
-              <div class="detail-v1">
-                <span class="detail-label">Project Archive</span>
-                <span class="detail-val"><a href="https://gsapp-cdp.github.io/archive/projects/2025/mycelium-acoustic-module/" target="_blank">CAPSTONE</a></span>
-              </div>
-            </div>
-            <div class="col-md-6" style="margin-top: 1rem;">
-              <p>The three-part process of the capstone project begins with digital fabrication, where a custom-designed end effector integrated with a UR3 robotic arm is used to generate scalable infill structures—slender wooden tension members tailored to each panel's geometry. These elements are fabricated through parametric inputs and placed into precise configurations, acting as both reinforcement and scaffolding.</p>
-            </div>
-            <div class="col-md-6" style="margin-top: 1rem;">
-              <p>Once completed, the infill is inserted into a modular formwork, setting the stage for mycelium growth. This phase bridges computational design with robotic automation, embedding structural logic into the panel system while maintaining adaptability across variations. As the foundation for the bio-fabrication process, this step reflects a broader commitment to materially efficient, responsive construction workflows grounded in regenerative design principles. For more details on the robotic fabrication process, see the Transformative Automation project documentation.</p>
             </div>
           </div>
 

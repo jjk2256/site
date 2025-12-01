@@ -51,22 +51,32 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Julia Kwon</a>
 
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="publications.html" class="nav-link">Publications</a></li>
-          <li><a href="awards.html" class="nav-link">Awards + Press</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link">Index</a></li>
+          <li><a href="index.html" class="nav-link">Projects</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
         </ul>
 
         <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
           <span></span>
         </a>
 
+      </div>
+      
+      <!-- Navigation Buttons Below Name -->
+      <div class="row mt-4">
+        <div class="col-12 text-left">
+          <div class="nav-buttons">
+            <a href="about.html" class="btn btn-outline-primary mx-2 mb-2">About</a>
+            <a href="index.html" class="btn btn-primary mx-2 mb-2 active">Projects</a>
+            <a href="research.html" class="btn btn-outline-primary mx-2 mb-2">Research</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -76,24 +86,60 @@
       <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
 
         <div class="portfolio-single-inner">
-          <h2 class="heading-portfolio-single-h2 text-black">Zine (2024)</h2>
 
           <div class="row mb-5 align-items-stretch">
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZhHwTqa2q_U?si=r9ZU90S-hwTSaZD1" allowfullscreen></iframe>
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <div>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZhHwTqa2q_U?si=r9ZU90S-hwTSaZD1" allowfullscreen></iframe>
+                </div>
               </div>
-              <div class="mt-5" style="margin-top: 6rem !important;">
-                <a href="images/img_5.png" data-fancybox="gallery">
-                  <img src="images/img_5.png" alt="Zine Image" class="img-fluid">
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_13/img_1.png" data-fancybox="gallery">
+                  <img src="images/gal_13/img_1.png" alt="Zine" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_13/img_2.png" data-fancybox="gallery">
+                  <img src="images/gal_13/img_2.png" alt="Zine" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_13/img_3.png" data-fancybox="gallery">
+                  <img src="images/gal_13/img_3.png" alt="Zine" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_13/img_4.png" data-fancybox="gallery">
+                  <img src="images/gal_13/img_4.png" alt="Zine" class="img-fluid" style="width: 100%; height: auto;">
+                </a>
+              </div>
+              <div class="portfolio-image-spacing">
+                <a href="images/gal_13/img_5.png" data-fancybox="gallery">
+                  <img src="images/gal_13/img_5.png" alt="Zine" class="img-fluid" style="width: 100%; height: auto;">
                 </a>
               </div>
             </div>
 
-            <div class="col-lg-6 pl-lg-5">
+            <div class="col-lg-4 pl-lg-5 portfolio-text-column">
+              <h3 class="portfolio-title">Zine <span style="font-weight: 400;">2024</span></h3>
 
-              <p>An interactive game that explores the intersection of physical and digital interaction through collaborative play. Developed in collaboration with Panyanus Jansomwong, Pakjira Itthisang, and Kitae Kim, the project weaves together each group member's colloquium idea into a unified gaming experience. Players engage with a dynamic interface that responds to their movements and choices, creating a unique experience that bridges traditional gaming mechanics with experimental interaction design. At its core, the game investigates how shared digital spaces can foster meaningful connections, spontaneous creativity, and collective authorship.</p>
+              <p style="font-style: italic;">Zine began as an experiment in democratic authorship—four strong perspectives woven into a single interactive narrative without compromising anyone's voice. It took an immense amount of collective brainstorming, but we built a system where each person's research stayed visible and meaningful. The result is a choice-driven game that feels truly co-authored rather than blended into sameness.</p>
+              
+              <p>Zine is an interactive, choice-driven digital game built in Figma that combines four individual colloquium projects—city-bike mapping, NYC apartment hunting, upcycling/recycling, and sounds of the city—into a shared narrative system. The project treats authorship as collective: each player's choices weave together fragments of four distinct research threads, while the interface blends them into a single evolving storyline. The game highlights how spontaneous decision-making and collaborative structure shape its unfolding narrative.</p>
+              
+              <p>Players navigate a branching sequence of characters, locations, and situations. Zine uses Figma's prototyping tools—component variants, nested frames, and interaction triggers—to build a logic engine that connects each choice to its next state. Once a narrative path reaches its outcome, the interface reveals real-world data pulled from NYC Open Data and other public resources. These data-driven results contextualize each situation, pointing to issues such as mobility inequity, housing constraints, waste cycles, and the sonic landscape of the city.</p>
+              
+              <p>By merging embodied choice with distributed authorship, Zine becomes a co-authored exploration of urban complexity. Individual research topics remain visible, but their intersections generate emergent meaning and unexpected connections between players, data, and the city.</p>
+              
+              <p>An interactive multi-path Figma prototype; branching architecture mapped and tested; open-data outcomes integrated; collaborative flows documented through screen recordings.</p>
+              
+              <p><span class="role-label">Role</span><br>
+              Concept, interaction design, gameplay logic, interface and character development</p>
+              
+              <p><span class="role-label">Collaborators</span><br>
+              Pear Jansomwong, Fern Itthisang, Kitae Kim</p>
 
             </div>
 
