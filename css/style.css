@@ -1919,4 +1919,16 @@ figure.dotted-bg {
   margin-top: 3rem !important;
 }
 
+/* Hide Fancybox navigation elements */
+.fancybox-button--arrow_left,
+.fancybox-button--arrow_right,
+.fancybox-infobar,
+.fancybox-counter,
+.fancybox-toolbar,
+.fancybox-navigation {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
 
